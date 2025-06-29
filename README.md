@@ -22,15 +22,16 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 👨‍🍳 **Admin panel** for food & order management
 - 📱 **Fully responsive design** with Tailwind CSS
 
-  ## 🎥 Project Demo
+## 🎥 **Project Demo**
 
 Click the link below to view a walkthrough of the Cravy web application:
 
 👉 [Watch the Demo Video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
 
----
+
   
-## 🖼️ Screenshots
+## 🖼️ **Screenshots**
+
 HomePage
 ![Home Page](assets/screenshots/Homepage.png)
 Menu
