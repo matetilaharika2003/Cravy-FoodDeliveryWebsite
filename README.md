@@ -26,6 +26,16 @@ A full-stack food delivery web application built with the **MERN** stack.
 ## 🖼️ Screenshots
 
 ![Home Page](assets/screenshots/Homepage.png)
+![Menu](assets/screenshots/Menu.png)
+![Signup Page](assets/screenshots/Signup-Page.png)
+![Login Page](assets/screenshots/Login-Page.png)
+![Contact Page](assets/screenshots/Contact-Page.png)
+![Checkout Page](assets/screenshots/Checkout-Page.png)
+![Payment Page](assets/screenshots/Payment-Page.png)
+![Mongodb Entry](assets/screenshots/Mongodb-Entry.png)
+![Order Data Entry](assets/screenshots/Order-Data-Entry.png)
+![Admin Panel](assets/screenshots/AdminPanel.png)
+![Footer](assets/screenshots/Footer.png)
 
 ---
 
