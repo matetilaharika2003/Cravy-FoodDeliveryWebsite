@@ -32,7 +32,7 @@ Click the link below to view a walkthrough of the Cravy web application:
   
 ## 🖼️ **Screenshots**
 
-HomePage
+- **Home Page** 
 ![Home Page](assets/screenshots/Homepage.png)
 Menu
 ![Menu](assets/screenshots/Menu.png)
