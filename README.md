@@ -3,15 +3,6 @@
 A full-stack food delivery web application built with the **MERN** stack.
 
 
-## 🛠️ **Tech Stack**
-
-- 🍃 **MongoDB**
-- ⚙️ **Express.js**
-- ⚛️ **React.js**
-- 🌐 **Node.js**
-- 💳 **Stripe API**
-- 🎨 **Tailwind CSS**
-
 ## ✨ **Features**
 
 - 🍲 **Dynamic food menu** with categories 
@@ -21,6 +12,17 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 📦 **Order placement and confirmation system**  
 - 👨‍🍳 **Admin panel** for food & order management
 - 📱 **Fully responsive design** with Tailwind CSS
+
+
+## 🛠️ **Tech Stack**
+
+- 🍃 **MongoDB**
+- ⚙️ **Express.js**
+- ⚛️ **React.js**
+- 🌐 **Node.js**
+- 💳 **Stripe API**
+- 🎨 **Tailwind CSS**
+
 
 ## 🎥 **Project Demo**
 
