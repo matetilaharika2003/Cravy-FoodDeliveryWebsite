@@ -12,20 +12,6 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 💳 **Stripe API**
 - 🎨 **Tailwind CSS**
 
-
-## 🧾 **Description**
-
-**Cravy** is a responsive and dynamic food delivery web app that allows users to:
-
-- 🧭 **Browse a live menu**
-- 🛒 **Add items to cart**
-- 💳 **Checkout securely via Stripe**
-- 🔐 **Login/Register securely with JWT**
-- ✅ **Track orders and receive confirmation**
-
- admin panel allows management of food items and orders.
-
-
 ## ✨ **Features**
 
 - 🍲 **Dynamic food menu** with categories 
@@ -36,8 +22,15 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 👨‍🍳 **Admin panel** for food & order management
 - 📱 **Fully responsive design** with Tailwind CSS
 
+  
+## 🖼️ Screenshots
+
+![Home Page](screenshots/homepage.png)
+![Cart Page](screenshots/cart.png)
+
+---
+
 ### 📽️ Demo Video
 
 [Click here to watch the demo video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
-
 
