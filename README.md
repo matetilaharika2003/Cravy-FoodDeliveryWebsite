@@ -23,16 +23,16 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 🔐 **Login/Register securely with JWT**
 - ✅ **Track orders and receive confirmation**
 
-Optional admin tools allow management of food items and orders.
+ admin panel allows management of food items and orders.
 
 
 ## ✨ **Features**
 
-- 🍲 **Dynamic food menu** with categories & filters  
-- 🛍️ **Cart management** – add, remove, update items  
+- 🍲 **Dynamic food menu** with categories 
+- 🛍️ **Cart management** – add, remove items  
 - 🔐 **User authentication** using JWT  
 - 💳 **Integrated Stripe payment gateway**  
 - 📦 **Order placement and confirmation system**  
-- 👨‍🍳 **Admin panel** for food & order management (optional)  
+- 👨‍🍳 **Admin panel** for food & order management
 - 📱 **Fully responsive design** with Tailwind CSS
 
