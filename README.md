@@ -2,7 +2,6 @@
 
 A full-stack food delivery web application built with the **MERN** stack.
 
----
 
 ## 🛠️ **Tech Stack**
 
@@ -13,7 +12,6 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 💳 **Stripe API**
 - 🎨 **Tailwind CSS**
 
----
 
 ## 🧾 **Description**
 
@@ -27,7 +25,6 @@ A full-stack food delivery web application built with the **MERN** stack.
 
 Optional admin tools allow management of food items and orders.
 
----
 
 ## ✨ **Features**
 
@@ -39,4 +36,3 @@ Optional admin tools allow management of food items and orders.
 - 👨‍🍳 **Admin panel** for food & order management (optional)  
 - 📱 **Fully responsive design** with Tailwind CSS
 
----
