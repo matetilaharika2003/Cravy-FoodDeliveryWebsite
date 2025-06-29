@@ -36,8 +36,8 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 👨‍🍳 **Admin panel** for food & order management
 - 📱 **Fully responsive design** with Tailwind CSS
 
-  ### 📽️ Demo Video
+### 📽️ Demo Video
 
-[![Watch the demo](https://img.youtube.com/vi/VIDEO_ID_HERE/0.jpg)](https://www.youtube.com/watch?v=VIDEO_ID_HERE)
+[Click here to watch the demo video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
 
 
