@@ -34,25 +34,25 @@ Click the link below to view a walkthrough of the Cravy web application:
 
 - **Home Page** 
 ![Home Page](assets/screenshots/Homepage.png)
-Menu
+- **Menu** 
 ![Menu](assets/screenshots/Menu.png)
-SignupPage
+- **Signup Page**  
 ![Signup Page](assets/screenshots/Signup-Page.png)
-LoginPage
+- **Login Page**  
 ![Login Page](assets/screenshots/Login-Page.png)
-MongodbEntry
+- **MongoDB Entry** 
 ![Mongodb Entry](assets/screenshots/Mongodb-Entry.png)
-CheckoutPage
+- **Checkout Page**  
 ![Checkout Page](assets/screenshots/Checkout-Page.png)
-OrderDataEntry
+- **Order Data Entry**  
 ![Order Data Entry](assets/screenshots/Order-Data-Entry.png)
-PaymentPage
+- **Payment Page**  
 ![Payment Page](assets/screenshots/Payment-Page.png)
-AdminPanel
+- **Admin Panel**  
 ![Admin Panel](assets/screenshots/AdminPanel.png)
-ContactPage
+- **Contact Page**  
 ![Contact Page](assets/screenshots/Contact-Page.png)
-Footer
+- **Footer** 
 ![Footer](assets/screenshots/Footer.png)
 
 
