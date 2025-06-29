@@ -49,7 +49,9 @@ Footer
 
 ---
 
-### 📽️ Demo Video
+## 🎥 Project Demo
 
-[Click here to watch the demo video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
+Click the link below to view a walkthrough of the Cravy web application:
+
+👉 [Watch the Demo Video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
 
