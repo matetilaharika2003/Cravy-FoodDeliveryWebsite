@@ -21,7 +21,7 @@ const __dirname = path.dirname(__filename);
 app.use(
     cors({
         origin: (origin, callback) => {
-            const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174','https://cravy-frontend2.onrender.com'];
+            const allowedOrigins = ['http://localhost:5173', 'http://localhost:5174','https://cravy-frontend2.onrender.com',"https://cravy-admin.onrender.com"];
             if (!origin || allowedOrigins.includes(origin)) {
                 callback(null, true);
             } else {
