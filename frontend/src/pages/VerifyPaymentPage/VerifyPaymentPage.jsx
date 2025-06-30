@@ -30,7 +30,7 @@ const VerifyPaymentPage = () => {
         }
 
         // Stripe says success=true & we have a session_id:
-        axios.get('http://localhost:4000/api/orders/confirm', {
+        axios.get(' https://cravy-backend2.onrender.com/api/orders/confirm', {
             params: { session_id },
             headers: authHeaders
         })

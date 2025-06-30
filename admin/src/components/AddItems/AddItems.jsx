@@ -6,6 +6,8 @@ import { FaRupeeSign } from 'react-icons/fa';
 import AdminNavbar from '../Navbar/Navbar';
 import { styles } from '../../assets/dummyadmin';
 
+
+
 const AddItems = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -54,7 +56,7 @@ const AddItems = () => {
         payload.append(key, val);
       });
       const res = await axios.post(
-        'http://localhost:4000/api/items',
+        ' https://cravy-backend2.onrender.com/api/items',
         payload,
         { headers: { 'Content-Type': 'multipart/form-data' } }
       );

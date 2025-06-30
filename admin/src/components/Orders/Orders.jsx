@@ -13,7 +13,7 @@ const Orders = () => {
     const fetchOrders = async () => {
       try {
         const response = await axios.get(
-          'http://localhost:4000/api/orders/getall',
+          ' https://cravy-backend2.onrender.com/api/orders/getall',
           {
             headers: { Authorization: `Bearer ${localStorage.getItem('token')}` },
           }
@@ -44,7 +44,7 @@ const Orders = () => {
 
   const handleStatusChange = async (orderId, newStatus) => {
     try {
-      await axios.put(`http://localhost:4000/api/orders/getall/${orderId}`, { status: newStatus });
+      await axios.put(` https://cravy-backend2.onrender.com/api/orders/getall/${orderId}`, { status: newStatus });
       setOrders(orders.map(o => o._id === orderId ? { ...o, status: newStatus } : o));
     } catch (err) {
       alert(err.response?.data?.message || 'Failed to update order status');
@@ -107,7 +107,7 @@ const Orders = () => {
                           <div className="space-y-1 max-h-52 overflow-auto">
                             {order.items.map((itm, idx) => (
                               <div key={idx} className="flex items-center gap-3 p-2 rounded-lg">
-                                <img src={`http://localhost:4000${itm.item.imageUrl}`} alt={itm.item.name} className="w-10 h-10 object-cover rounded-lg" />
+                                <img src={` https://cravy-backend2.onrender.com${itm.item.imageUrl}`} alt={itm.item.name} className="w-10 h-10 object-cover rounded-lg" />
                                 <div className="flex-1">
                                   <span className="text-amber-100/80 text-sm block truncate">{itm.item.name}</span>
                                   <div className="flex items-center gap-2 text-xs text-amber-400/60">

@@ -32,7 +32,7 @@ const CheckoutPage = () => {
       if (paymentStatus === 'success' && sessionId) {
         // Confirm the payment and create order on the backend
         axios.post(
-          'http://localhost:4000/api/orders/confirm',
+          ' https://cravy-backend2.onrender.com/api/orders/confirm',
           { sessionId },
           { headers: authHeaders }
         )
@@ -85,7 +85,7 @@ const CheckoutPage = () => {
       if (formData.paymentMethod === 'online') {
         // Initiate payment session; do NOT create order or clear cart yet
         const { data } = await axios.post(
-          'http://localhost:4000/api/orders',
+          ' https://cravy-backend2.onrender.com/api/orders',
           payload,
           { headers: authHeaders }
         );
@@ -94,7 +94,7 @@ const CheckoutPage = () => {
       } else {
         // Cash on Delivery: directly create order
         const { data } = await axios.post(
-          'http://localhost:4000/api/orders',
+          ' https://cravy-backend2.onrender.com/api/orders',
           payload,
           { headers: authHeaders }
         );
