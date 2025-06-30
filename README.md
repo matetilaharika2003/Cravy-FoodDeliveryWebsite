@@ -2,6 +2,19 @@
 
 A full-stack food delivery web application built with the **MERN** stack.
 
+## 🔗 Live Demo
+
+👉 Live Frontend : https://cravy-frontend2.onrender.com
+👉 Live Admin : https://cravy-admin.onrender.com
+
+📌 Note: Render may take a few seconds to wake up the server.
+
+## 🎥 **Project Demo**
+
+Click the link below to view a walkthrough of the Cravy web application:
+
+👉 [Watch the Demo Video](https://drive.google.com/file/d/1lHg3pVVewGOS7VZK_XfyK-Y7HsTnqKuk/view?usp=sharing)
+
 
 ## ✨ **Features**
 
@@ -22,6 +35,7 @@ A full-stack food delivery web application built with the **MERN** stack.
 - 🌐 **Node.js**
 - 💳 **Stripe API**
 - 🎨 **Tailwind CSS**
+  
 
 
 ## 🎥 **Project Demo**
