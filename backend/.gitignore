@@ -4,4 +4,4 @@ node_modules/
 # ignore environment variables
 .env
 
-
+assets/
