@@ -1,9 +1,26 @@
 import mongoose from "mongoose";
+import dotenv from "dotenv";
 
-export const connectDB = async () => {
-    await mongoose.connect('mongodb+srv://matetilaharika:SRQnvCypjw0byKec@cluster0.s0ccwdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
-        .then(() => console.log('DB CONNECTED'));
+if (process.env.NODE_ENV !== "production") {
+  dotenv.config();
 }
+     const { MONGO_USER, MONGO_PASS, MONGO_CLUSTER, MONGO_DB } = process.env;
+const uri = `mongodb+srv://${MONGO_USER}:${MONGO_PASS}@${MONGO_CLUSTER}/${MONGO_DB}?retryWrites=true&w=majority`;
+
+      
+export const connectDB = async () => {
+           try {
+              await mongoose.connect(uri);
+             console.log('DB CONNECTED');
+           } catch (err) {
+             console.error('DB CONNECTION ERROR:', err);
+           }
+         };
+
+// export const connectDB = async () => {
+//     await mongoose.connect('mongodb+srv://matetilaharika:SRQnvCypjw0byKec@cluster0.s0ccwdb.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0')
+//         .then(() => console.log('DB CONNECTED'));
+// }
 
 // STEPS TO GET YOUR MONGODB ATLAS USERNAME & PASSWORD:
 //
